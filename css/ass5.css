@@ -1,0 +1,106 @@
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqWBts1sNPhoLpuUH4IKmqAzqG3g0EtKUYsak_7u71rNbUkk-D");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+.row{
+    display: flex;
+    justify-content: center;
+}
+.header {
+    text-align: center;
+    color: yellow;
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 40px;
+}
+.card{
+    width : 130px;
+    height: 140px;
+    border: 4px solid black;
+    border-radius: 15px;
+    margin: 5px;
+}
+button{
+    background-color: yellow;
+    border-radius: 20px;
+    color: aqua;
+    font-family: 'Kodchasan', sans-serif;
+    margin-left: 900px;
+    height: 40px;
+    font-size: 20px;
+}
+.modal-content{
+    display:flex;
+    position: absolute;
+    width: 700px;
+    height: 580px;
+    background-color:yellow;;
+    border-radius: 30px;
+}
+#btn2{
+    position: absolute;
+    margin-top:180px;
+    margin-left:30px;
+    width: 250px;
+    height: 100px;;
+    background-color: rgb(236, 255, 127);
+    color:aqua;
+}
+.congrats{
+    width: 600px;
+    height: 400px;
+    margin-left: 100px;
+    margin-top: 25px;
+    border-radius: 30px;
+}
+p{
+    margin-top:20px;
+    margin-left:20px;
+    color:aquamarine;
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 30px;
+}
+@media only screen and (max-width : 600px){
+    .card {
+        width : 70px;
+        height: 70px;
+        border: 4px solid black;
+        border-radius: 15px;
+        margin: 5px;
+    }
+    .header{
+       position: absolute;
+       top:15px;
+       font-size: 0px;
+       height: 20px;
+    }
+    button{
+        background-color: yellow;
+        border-radius: 20px;
+        color: aqua;
+        font-family: 'Kodchasan', sans-serif;
+        position: absolute;
+        top: 35px;
+        right: 10px;
+        height: 30px;
+        font-size: 8px;
+    }
+    .modal-content{
+        position:absolute;
+        top: 30px;
+        left:75px;
+        width: 380px;
+        height: 290px;
+        background-color:yellow;;
+        border-radius: 30px;
+    }
+    #btn2{
+        margin-top: 60px;
+        width: 200px;
+        background-color: rgb(236, 255, 127);
+        color:aqua;
+        }
+    .congrats{
+        display:none;
+    }
+}

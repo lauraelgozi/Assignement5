@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./ass5.css">
+    <link href="https://fonts.googleapis.com/css?family=Kodchasan" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>MemoryGame</title>
+</head>
+
+<body>
+    <!--HEADER-->
+    <div class=header>MEMORY GAME</div>
+    <button id="btn">NEW GAME</button>
+    <div class="bigContainer" id="game">
+        <div id="display-score" class="row modal">
+            <div class="modal-content">
+                <p> WELL DONE, YOU WON !!!</p>
+                <img alt="playerWon" src="https://media1.tenor.com/images/a89b5fe852d32184378c2e76d2403412/tenor.gif?itemid=7931572"
+                    class="congrats">
+                <button id="btn2" onclick="refresh()">NEW GAME</button>
+            </div>
+        </div>
+        <span class="close" id="mymodal">&times;</span>
+
+    </div>
+    </div>
+    <!--GRID-->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-4 col-sm-3 col-lg-3 col-xl-3">
+                <img id="card1" class="card" src="https://png.pngtree.com/element_origin_min_pic/17/07/20/2460c5b5070f54ae8781a0e4ba6d5b8a.jpg">
+            </div>
+            <div class="col-xs-4 col-sm-3 col-lg-3 col-xl-3">
+                <img id="card2" class="card" src="https://png.pngtree.com/element_origin_min_pic/17/07/20/2460c5b5070f54ae8781a0e4ba6d5b8a.jpg">
+            </div>
+            <div class="col-xs-4 col-sm-3 col-lg-3 col-xl-3">
+                <img id="card3" class="card" src="https://png.pngtree.com/element_origin_min_pic/17/07/20/2460c5b5070f54ae8781a0e4ba6d5b8a.jpg">
+            </div>
+            <div class="col-xs-4 col-sm-3 col-lg-3 col-xl-3">
+                <img id="card4" class="card" src="https://png.pngtree.com/element_origin_min_pic/17/07/20/2460c5b5070f54ae8781a0e4ba6d5b8a.jpg">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-4 col-sm-3 col-lg-3 col-xl-3">
+                <img id="card5" class="card" src="https://png.pngtree.com/element_origin_min_pic/17/07/20/2460c5b5070f54ae8781a0e4ba6d5b8a.jpg">
+            </div>
+            <div class="col-xs-4 col-sm-3 col-lg-3 col-xl-3">
+                <img id="card6" class="card" src="https://png.pngtree.com/element_origin_min_pic/17/07/20/2460c5b5070f54ae8781a0e4ba6d5b8a.jpg">
+            </div>
+            <div class="col-xs-4 col-sm-3 col-lg-3 col-xl-3">
+                <img id="card7" class="card" src="https://png.pngtree.com/element_origin_min_pic/17/07/20/2460c5b5070f54ae8781a0e4ba6d5b8a.jpg">
+            </div>
+            <div class="col-xs-4 col-sm-3 col-lg-3 col-xl-3">
+                <img id="card8" class="card" src="https://png.pngtree.com/element_origin_min_pic/17/07/20/2460c5b5070f54ae8781a0e4ba6d5b8a.jpg">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-4 col-sm-3 col-lg-3 col-xl-3">
+                <img id="card9" class="card" src="https://png.pngtree.com/element_origin_min_pic/17/07/20/2460c5b5070f54ae8781a0e4ba6d5b8a.jpg">
+            </div>
+            <div class="col-xs-4 col-sm-3 col-lg-3 col-xl-3">
+                <img id="card10" class="card" src="https://png.pngtree.com/element_origin_min_pic/17/07/20/2460c5b5070f54ae8781a0e4ba6d5b8a.jpg">
+            </div>
+            <div class="col-xs-4 col-sm-3 col-lg-3 col-xl-3">
+                <img id="card11" class="card" src="https://png.pngtree.com/element_origin_min_pic/17/07/20/2460c5b5070f54ae8781a0e4ba6d5b8a.jpg">
+            </div>
+            <div class="col-xs-4 col-sm-3 col-lg-3 col-xl-3">
+                <img id="card12" class="card" src="https://png.pngtree.com/element_origin_min_pic/17/07/20/2460c5b5070f54ae8781a0e4ba6d5b8a.jpg">
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+<script src="ass5.js"></script>
+
+</html>
